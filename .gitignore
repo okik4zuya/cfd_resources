@@ -1,0 +1,43 @@
+# OpenFOAM — processor directories (parallel runs)
+processor*/
+
+# OpenFOAM — time directories (keep only 0/)
+[1-9]*/
+[1-9][0-9]*/
+[1-9][0-9][0-9]*/
+[1-9][0-9][0-9][0-9]*/
+
+# OpenFOAM — post-processing output
+postProcessing/
+VTK/
+*.foam
+*.OpenFOAM
+
+# OpenFOAM — log files
+log.*
+*.log
+
+# OpenFOAM — reconstructed results
+*.tar.gz
+*.zip
+
+# ParaView
+*.pvsm
+*.pvd
+*.vtu
+*.vtp
+*.vts
+*.vtm
+
+# RunPod / system
+.runpod/
+*.pid
+
+# Python (if any scripts)
+__pycache__/
+*.pyc
+.env
+
+# Windows
+Thumbs.db
+desktop.ini
